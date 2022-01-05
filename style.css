@@ -1,0 +1,15 @@
+.half-width{
+    width: 50%;
+}
+.intro-heading{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    padding-left: 25px;
+}
+#intro-border{
+    border-left: 10px solid orangered;
+    border-radius: 5px;
+}
+.orange-color{
+    color: orange;
+}
