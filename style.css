@@ -1,9 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h3{
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
 }
 .half-width{
     width: 50%;
@@ -16,7 +16,7 @@ h3{
     display: flex;
 }
 .intro-heading{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Yeseva One', cursive;
     font-size: 35px;
     padding-left: 15px;
     line-height: 30px;
@@ -37,7 +37,7 @@ h3{
 }
 .button-style{
     text-decoration: none;
-    background-image: linear-gradient(tomato,orange);
+    background-image: linear-gradient(tomato,red);
     color: white;
     padding: 10px 15px;
     border-radius: 5px;
@@ -48,18 +48,23 @@ h3{
 }
 .mission-heading{
     text-align: center;
-    font-size: 35px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
 }
 .mission-flexiblity{
     display: flex;
 }
+#misson-smaller{
+    margin: 3%;
+}
 .triple-width{
     width: 25%;
-    margin-left: 2%;
-    border: solid white;
+    margin: 2%;
+    border: solid none;
     border-radius: 25px;
     padding: 10px 45px 10px 25px;
+    box-shadow: 0px 0px 20px;
+    border-image-slice: 1;
 }
 .triple-width img{
     width: 50%;
@@ -88,23 +93,45 @@ h3{
 }
 .limits-text h2{
     font-size: 40px;
-    font-family: 'Roboto', sans-serif;
     width: 700px;
+    line-height: 30px;
 }
-.sizeing{
+.community-p-sizeing{
     font-size: 18px;
 }
 .community-text{
+    padding-top: 5%;
     padding-left: 8%;
     margin-right: 0%;
     width: 70%;
 }
 .community-text h2{
     font-size: 40px;
-    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
 }
 .com-pic-radisizing{
     width: 100%;
     border-radius: 25px;
     margin-bottom: 15%;
+}
+footer{
+    text-align: center;
+    background-color: #0B0D17;
+    
+}
+footer h3{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+    padding-top: 40px;
+}
+#ext-color{
+    color:tomato
+}
+footer p{
+    font-family: 'Manrope', sans-serif;
+    color: #D9DBE1;
+    font-size: 14px;
+    padding-bottom: 40px;
 }
