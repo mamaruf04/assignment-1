@@ -76,7 +76,7 @@ h3{
 .limit-section{
     margin: 1% 0 3% 5%;
 }
-#limit-pic{
+.limit-pic-radisizing{
     width: 100%;
     border-radius: 25px;
     margin-left: 8%;
@@ -93,4 +93,18 @@ h3{
 }
 .sizeing{
     font-size: 18px;
+}
+.community-text{
+    padding-left: 8%;
+    margin-right: 0%;
+    width: 70%;
+}
+.community-text h2{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.com-pic-radisizing{
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 15%;
 }
