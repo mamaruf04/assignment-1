@@ -1,15 +1,56 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .half-width{
     width: 50%;
+    margin: 5% 5% 0 5%;
+}
+.half-width img{
+    width: 110%;
+}
+.intro-flexiblity{
+    display: flex;
 }
 .intro-heading{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 40px;
-    padding-left: 25px;
+    font-size: 35px;
+    padding-left: 15px;
+    line-height: 30px;
 }
 #intro-border{
-    border-left: 10px solid orangered;
+    border-left: 5px solid orangered;
     border-radius: 5px;
+}
+.intro-heading-center{
+    margin-left: 15%;
+    margin-top: 20%;
 }
 .orange-color{
     color: orange;
+}
+.dim-color{
+    color: dimgray;
+}
+.button-style{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,orange);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+#small-tag{
+    color: dimgray;
+    margin-top:10%;
+}
+.mission-heading{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.mission-flexiblity{
+    display: flex;
+}
+.triple-width{
+    width: 30%;
+    margin: 0 12%;
 }
