@@ -60,7 +60,6 @@ h3{
 .triple-width{
     width: 25%;
     margin: 2%;
-    border: solid none;
     border-radius: 25px;
     padding: 10px 45px 10px 25px;
     box-shadow: 0px 0px 20px;
@@ -113,6 +112,28 @@ h3{
     width: 100%;
     border-radius: 25px;
     margin-bottom: 15%;
+}
+.agency-heading{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+    padding-top: 0%;
+}
+.agency-img{
+    width: 80%;
+    box-shadow: 5px 5px 30px gray;
+    border-image-slice: 1;
+    border-radius: 15px;
+    margin-left: 25%;
+    margin-bottom: 15%;
+}
+#farm-heading{
+    font-size: 35px;
+    font-weight: 700;
+}
+.agency-text{
+    padding-top: 5%;
 }
 footer{
     text-align: center;
