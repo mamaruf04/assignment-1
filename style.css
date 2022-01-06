@@ -1,14 +1,22 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+h3{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
 .half-width{
     width: 50%;
     margin: 5% 5% 0 5%;
 }
-.half-width img{
+#intro-pic{
     width: 110%;
 }
-.intro-flexiblity{
+#limit-pic{
+    width: 80%;
+    border-radius: 25px;
+}
+.flexiblity{
     display: flex;
 }
 .intro-heading{
@@ -44,13 +52,35 @@ body{
 }
 .mission-heading{
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Roboto', sans-serif;
 }
 .mission-flexiblity{
     display: flex;
 }
 .triple-width{
-    width: 30%;
-    margin: 0 12%;
+    width: 25%;
+    margin-left: 2%;
+    border: solid white;
+    border-radius: 25px;
+    padding: 10px 45px 10px 25px;
+}
+.triple-width img{
+    width: 50%;
+}
+#mission{
+    background-color: #edf5f6;
+}
+#vission{
+    background-color: #ffeeee;
+}
+#goals{
+    background-color: #fff4d6;
+}
+.limits-text h2{
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+.limits-text p{
+    font-size: 18px;
 }
