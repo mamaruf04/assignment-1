@@ -12,10 +12,6 @@ h3{
 #intro-pic{
     width: 110%;
 }
-#limit-pic{
-    width: 80%;
-    border-radius: 25px;
-}
 .flexiblity{
     display: flex;
 }
@@ -43,7 +39,7 @@ h3{
     text-decoration: none;
     background-image: linear-gradient(tomato,orange);
     color: white;
-    padding: 8px 15px;
+    padding: 10px 15px;
     border-radius: 5px;
 }
 #small-tag{
@@ -52,7 +48,7 @@ h3{
 }
 .mission-heading{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Roboto', sans-serif;
 }
 .mission-flexiblity{
@@ -77,10 +73,24 @@ h3{
 #goals{
     background-color: #fff4d6;
 }
-.limits-text h2{
-    font-size: 35px;
-    font-family: 'Roboto', sans-serif;
+.limit-section{
+    margin: 1% 0 3% 5%;
 }
-.limits-text p{
+#limit-pic{
+    width: 100%;
+    border-radius: 25px;
+    margin-left: 8%;
+    
+}
+.limits-text{
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.limits-text h2{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    width: 700px;
+}
+.sizeing{
     font-size: 18px;
 }
