@@ -46,6 +46,12 @@ h3{
     color: dimgray;
     margin-top:10%;
 }
+.intro-bg{
+    background-image: url(images/shapes/shape-4.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position:left;
+}
 .mission-heading{
     text-align: center;
     font-size: 30px;
@@ -54,8 +60,14 @@ h3{
 .mission-flexiblity{
     display: flex;
 }
-#misson-smaller{
+#mission-smaller{
     margin: 3%;
+}
+.mission-bg{
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position:bottom left;
 }
 .triple-width{
     width: 25%;
@@ -83,8 +95,13 @@ h3{
 .limit-pic-radisizing{
     width: 100%;
     border-radius: 25px;
-    margin-left: 8%;
-    
+    margin-left: 8%; 
+}
+.limit-pic-bg-2{
+    background-image: url(images/shapes/half-circle.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 7%;
 }
 .limits-text{
     margin-top: 5%;
@@ -95,7 +112,7 @@ h3{
     width: 700px;
     line-height: 30px;
 }
-.community-p-sizeing{
+.pra-sizeing{
     font-size: 18px;
 }
 .community-text{
@@ -113,6 +130,18 @@ h3{
     border-radius: 25px;
     margin-bottom: 15%;
 }
+.community-pic-bg{
+    background-image: url(images/shapes/shape-4.png);
+    background-repeat: no-repeat;
+    background-position:right top;
+    background-size: 70%;
+}
+.community-bg-2{
+    background-image: url(images/shapes/half-circle-2.png);
+    background-repeat: no-repeat;
+    background-position:left top;
+    background-size: 10%;
+}
 .agency-heading{
     font-size: 50px;
     font-weight: 900;
@@ -122,7 +151,7 @@ h3{
 }
 .agency-img{
     width: 80%;
-    box-shadow: 5px 5px 30px gray;
+    box-shadow: 5px 5px 40px gray;
     border-image-slice: 1;
     border-radius: 15px;
     margin-left: 25%;
@@ -133,7 +162,19 @@ h3{
     font-weight: 700;
 }
 .agency-text{
-    padding-top: 5%;
+    padding-top: 3%;
+}
+.agency-img-bg{
+    background-image: url(images/shapes/gradient.png);
+    background-repeat: no-repeat;
+    background-position:left top;
+    background-size: 40%;
+}
+.agency-bg{
+    background-image: url(images/shapes/stick.png);
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    background-size: 40%;
 }
 footer{
     text-align: center;
