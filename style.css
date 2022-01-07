@@ -48,7 +48,7 @@ h3{
 }
 .intro-bg{
     background-image: url(images/shapes/shape-4.png);
-    background-size: 20%;
+    background-size: 30%;
     background-repeat: no-repeat;
     background-position:left;
 }
@@ -95,8 +95,13 @@ h3{
 .limit-pic-radisizing{
     width: 100%;
     border-radius: 25px;
-    margin-left: 8%;
-    
+    margin-left: 8%; 
+}
+.limit-pic-bg-2{
+    background-image: url(images/shapes/half-circle.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 8%;
 }
 .limits-text{
     margin-top: 5%;
@@ -125,6 +130,18 @@ h3{
     border-radius: 25px;
     margin-bottom: 15%;
 }
+.community-pic-bg{
+    background-image: url(images/shapes/shape-4.png);
+    background-repeat: no-repeat;
+    background-position:right top;
+    background-size: 70%;
+}
+.community-bg-2{
+    background-image: url(images/shapes/half-circle-2.png);
+    background-repeat: no-repeat;
+    background-position:left top;
+    background-size: 10%;
+}
 .agency-heading{
     font-size: 50px;
     font-weight: 900;
@@ -134,7 +151,7 @@ h3{
 }
 .agency-img{
     width: 80%;
-    box-shadow: 5px 5px 30px gray;
+    box-shadow: 5px 5px 40px gray;
     border-image-slice: 1;
     border-radius: 15px;
     margin-left: 25%;
@@ -145,7 +162,19 @@ h3{
     font-weight: 700;
 }
 .agency-text{
-    padding-top: 5%;
+    padding-top: 3%;
+}
+.agency-img-bg{
+    background-image: url(images/shapes/gradient.png);
+    background-repeat: no-repeat;
+    background-position:left top;
+    background-size: 40%;
+}
+.agency-bg{
+    background-image: url(images/shapes/stick.png);
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    background-size: 40%;
 }
 footer{
     text-align: center;
