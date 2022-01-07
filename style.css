@@ -46,6 +46,12 @@ h3{
     color: dimgray;
     margin-top:10%;
 }
+.intro-bg{
+    background-image: url(images/shapes/shape-4.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position:left;
+}
 .mission-heading{
     text-align: center;
     font-size: 30px;
@@ -54,8 +60,14 @@ h3{
 .mission-flexiblity{
     display: flex;
 }
-#misson-smaller{
+#mission-smaller{
     margin: 3%;
+}
+.mission-bg{
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position:bottom left;
 }
 .triple-width{
     width: 25%;
@@ -95,7 +107,7 @@ h3{
     width: 700px;
     line-height: 30px;
 }
-.community-p-sizeing{
+.pra-sizeing{
     font-size: 18px;
 }
 .community-text{
